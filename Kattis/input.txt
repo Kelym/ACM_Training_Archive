@@ -1,0 +1,14 @@
+alice bob
+4
+alice eve delmar
+sandi eve trevor rudolf lucy
+eve bret julia 
+lucy bret bob
+sam jasper
+1
+lorenzo wesley bobby
+bill ted
+3
+ted brianna wanda bill
+alice bill
+alice ted
