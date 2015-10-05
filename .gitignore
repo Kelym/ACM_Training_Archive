@@ -1,3 +1,9 @@
+# Input / Output
+*.txt
+
+# Data Folder
+Data
+
 # Compiled Object files
 *.slo
 *.lo
