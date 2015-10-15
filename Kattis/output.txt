@@ -1,3 +1,1 @@
-5 alice eve bret bob
-impossible
-1 bill alice ted
+possible

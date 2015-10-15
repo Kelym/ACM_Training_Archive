@@ -1,14 +1,6 @@
-alice bob
-4
-alice eve delmar
-sandi eve trevor rudolf lucy
-eve bret julia 
-lucy bret bob
-sam jasper
-1
-lorenzo wesley bobby
-bill ted
-3
-ted brianna wanda bill
-alice bill
-alice ted
+Word processors often split a word across lines using hyphenation,
+a technique requiring some knowledge of where the syllables in
+the word are divided.
+The rules given in this problem are a bit crude. But they represent a
+good starting point.
+===
