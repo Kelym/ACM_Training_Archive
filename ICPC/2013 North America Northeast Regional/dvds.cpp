@@ -1,3 +1,5 @@
+// Pass Kattis but WA on ICPC Baylor Judge
+#include <cstdio>
 #include <cstring>
 #include <iostream>
 #include <vector>
@@ -9,25 +11,18 @@ int main(){
 
 	int m, n;
 	cin>>m;
+    vector<int> ins;
 	while(m--)
 	{
 		cin>>n;
-		bool pos[1000005]={0};
-		int bound = 1, res = 0;
-		for(int i=0;i<n;++i)
-		{
-			int ins;
-			cin>>ins;
-			if(ins == bound){
-				pos[ins]=1;
-				while(pos[bound]==1) ++bound;
-			}
-			else{
-				pos[ins]=1;
-				res++;
-			}
-		}
-		cout<<res<<endl;
+        ins.reserve(n);
+		for(int i=0;i<n;++i) cin>>ins[i];
+        int seek = 1, i=0;
+        while(i<n){
+            if(ins[i]==seek) ++seek;
+            ++i;
+        }
+        cout<<(n-seek+1)<<endl;
 	}
 	return 0;
 }
