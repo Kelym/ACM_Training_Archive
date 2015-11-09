@@ -17,7 +17,7 @@ void getPrimes(int n)
     vector<int> prime;
     vector<bool> isComposite(n);
 
-    isComposite[0]=isComposite[1]=1;difsjdkfdsfmsdf
+    isComposite[0]=isComposite[1]=1;
     for(int i=2;i<=n;++i)
     {
         if(!isComposite[i]) prime.push_back(i);

@@ -1,3 +1,4 @@
+// AC on Kattis but WA on Baylor
 #include <cstdio>
 #include <cstring>
 #include <iostream>
@@ -5,8 +6,8 @@
 #include <cmath>
 using namespace std;
 
-int target[10000000] = {0};
-int direction[10000000] = {0};
+int target[10000005] = {0};
+int direction[10000005] = {0};
 char a[10000005],b[10000005];
 
 int execsubstr(int begin, int end)
@@ -28,8 +29,8 @@ int execsubstr(int begin, int end)
 }
 
 int main(){
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
+    //freopen("input.txt","r",stdin);
+    //freopen("output.txt","w",stdout);
 
     char ins;
     int n =0;

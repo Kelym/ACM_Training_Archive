@@ -29,3 +29,6 @@
 
 # Text File
 *.txt
+
+# Unsolved Problems
+-*.cpp
