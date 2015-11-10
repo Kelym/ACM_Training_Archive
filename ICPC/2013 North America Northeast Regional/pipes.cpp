@@ -1,6 +1,10 @@
+#include <set>
 #include <cstdio>
 #include <vector>
+#include <cstring>
 #include <algorithm>
+using namespace std;
+
 int m,n,l;
 struct coord{
 	int x,y;
@@ -13,6 +17,9 @@ coord translate(int index){
 
 }
 bool fill(){
+    
+}
+bool connect(int a, int b){
     
 }
 int main()
@@ -30,7 +37,26 @@ int main()
     		pairs.push_back(coord(a,b));
     	}
         sort(pairs.begin(),pairs.end());
-        for(int i=0;i<l;++i)
+        memset(cover,0,sizeof(cover));
+        set<int> rhs;
+        bool flag = true;
+        for(int i=0;i<l && flag;++i)
+        {
+            a = pairs[i].x;
+            b = pairs[i].y;
+            while(rhs.size() && *(rhs.begin()) < a){
+                rhs.erase(rhs.begin());
+            }
+            if( rhs.size() && b > *(rhs.begin()){
+                flag = false;
+                break;
+            }
+            rhs.insert(b);
+            flag = connect(a,b);
+        }
+
+        if(flag) cout<<"YES"<<endl;
+        else cout<<"NO"<<endl;
     }
 	return 0;
 }
