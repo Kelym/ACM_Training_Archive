@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-//#include <stack>
+#include <stack>
 #include <cstring>
 #include <cstdio>
 using namespace std;
