@@ -1,59 +1,58 @@
-# A category of Kattis problems..
+# README
 
-Last Updated: 2015 Oct 17
+This directory contains my submissions to Kattis. Filename with a prefix of '-' has not been accepted.
 
-## Greedy
+## Tags
 
-adventuremoving4
-ceremony
+Last Updated: 2015 Nov 21
 
-## DP
+Problem 		| Tags
+--------------- | -----
+4thought		| DFS, Exhaustive
+a1paper			| Binary
+absurdistan3	| Graph, Bipartite Matching
+acm				| Simulation
+adventuremoving4| Greedy
+airlinehub 		| Simulation
+aliennumbers 	| Radix Conversion
+amanda 			| Graph, DFS
+anothercandies 	| Simulation
+antiarithmetic 	| Simulation
+arbitrage 		| Graph, Shortest Path
+busnumbers 		| Simulation
+calories 		| Simulation
+candydivision 	| Math, simulation
+cargame 		|
+catalansquare 	|
+cd 				|
+centsavings 	| DP
+ceremony 		| Greedy
+clockpictures 	| String Matching
+cookieselection | Data Structure
+dancerecital 	|
+different 		|
+dream 			|
+equivalences 	| Graph, SCC
+hidden 			|
+industrialspy 	|
+kitchen 		|
+lineup 			|
+listgame 		|
+modulararithmetic | Math
+pandachess 		| DP, LIS, Topological Sort
+passingsecrets 	| Graph
+phonelist 		|
+pivot 			|
+primesieve 		| Math
+result 			|
+setnja 			| Count
+shortestpath1 	|
+tractor 		| Binary, Count
+tritiling 		| DP
+visualgo 		|
+wordclouds 		|
 
-centsavingsdhe-
-tritiling
 
-## Graph
+## LOG.md
 
-passingsecrects
-
-## Data Structure
-
-cookieselection
-
-## String Match
-
-clockpictures
-
-## Math
-
-modulararithmetic
-primesieve
-
-### Count
-
-tractor
-setnja
-
-
-# TODO
-
-
-https://open.kattis.com/problems/absurdistan2 (Math, Prob)
-https://open.kattis.com/problems/maxflow (Flow)
-https://open.kattis.com/problems/catering (Cost Flow)
-https://open.kattis.com/problems/circularlock (Math, Search?)
-https://open.kattis.com/problems/fenwick (Segment Tree)
-https://open.kattis.com/problems/rectangleland (2D segment tree)
-https://open.kattis.com/problems/caching (Greedy?)
-https://open.kattis.com/problems/frozenrose （flow)
-https://open.kattis.com/problems/mazemovement (flow)
-https://open.kattis.com/problems/paintball (cost flow)
-https://open.kattis.com/problems/escape (graph + circle)
-https://open.kattis.com/problems/rotatetoroot
-https://open.kattis.com/problems/roomassignments
-https://open.kattis.com/problems/equivalences (find the min number of edge to make the whole graph in one circle)
-https://open.kattis.com/problems/rotatetoroot (balance tree)
-https://open.kattis.com/problems/peggame (Geo)
-https://open.kattis.com/problems/rubikrectangle
-
-https://open.kattis.com/problems/rubikrectangle (flip board)
+This file provides an abstract of the problems I worked on in chronological order. 
